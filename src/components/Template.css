@@ -1,0 +1,74 @@
+.ChallengeName{
+    padding: 50px;
+    font-size: 3rem;
+    color: #f67280;
+    border-radius: 5px;
+    box-shadow: 1px 2px 5px 1px #f67280;
+    width: 800px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+.Template1{
+    margin-top: 60px;
+    margin-left: 30px;
+}
+
+.Myname{
+    display: flex;
+    align-items: flex-start;
+    font-size: 2rem;
+    color: #f67280;
+}
+
+.Name{
+    cursor: pointer;
+    display: flex;
+}
+
+.Challenge-days{
+    display: flex;
+    align-items: flex-start;
+    margin-left: 30px;
+}
+
+
+
+
+.Myname + .Myname{
+    margin-top: 50px;
+}
+
+.Myname + .Myname .Challenge-days{
+    margin-left: 5px;
+}
+
+
+.Template2{
+    margin-top: 50px;
+    margin-left: 50px;
+    max-height: 300vh;
+    max-width: 100vh;
+}
+.title{
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-bottom: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #6c567b;
+}
+
+.Template2 + .Template3{
+    margin-top: -280px;
+    margin-left: 850px;
+}
+.Template3{
+
+    max-height: 100vh;
+    max-width: 100vh;
+    
+}
