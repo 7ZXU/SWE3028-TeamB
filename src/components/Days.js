@@ -18,5 +18,3 @@ const Days = ({day}) => {
 };
 
 export default Days;
-
-/*{done ? <MdCheckBox size="30"/> : <MdCheckBoxOutlineBlank size="30"/>} */

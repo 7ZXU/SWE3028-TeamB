@@ -1,5 +1,8 @@
 .ChallengeName{
     padding: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     font-size: 3rem;
     color: #f67280;
     border-radius: 5px;
@@ -10,6 +13,14 @@
     margin-right: auto;
     margin-top: 50px;
 }
+
+.Challimg{
+    width: 600px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
 .Template1{
     margin-top: 60px;
     margin-left: 30px;

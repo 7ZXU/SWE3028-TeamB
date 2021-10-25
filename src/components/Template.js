@@ -13,7 +13,7 @@ const Template = ({children, Myname, days, Yourname, days2, todoLength}) => {
 
     return (
         <div className='Template'>
-            <div className='ChallengeName'>Challenge name</div>
+            <div className='ChallengeName'><img className='Challimg'  src={ require('.\\img\\1.jpg') } />Challenge Info</div>
             <div className= "Template1">
                 <div className='Myname'><div className='Name' onClick={onInsertToggle}> Me: {Myname}
                     {insertToggle && <Challperson onInsertToggle={onInsertToggle}/>}
