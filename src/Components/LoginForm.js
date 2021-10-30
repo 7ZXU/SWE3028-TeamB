@@ -1,6 +1,7 @@
 import React from 'react';
 import InputText from './InputText';
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 const Button = styled.button`
   cursor: pointer;
@@ -16,6 +17,10 @@ const Button = styled.button`
   padding-right: 0.5rem;
   margin-top: 1.5rem;
 
+  & > Link {
+    color: #ffffff;
+  }
+
   &:hover {
     background-color: #ffffff;
     color: #000000;
@@ -27,22 +32,21 @@ const Aligner = styled.div`
   text-align: right;
 `;
 
-const StyledLink = styled.p`
-  color: #888888;
+const StyledLink = styled(Link)`
+  color: #ffffff;
   cursor: pointer;
-  &:hover {
-    color: #000000;
-  }
 `;
 
-function LoginForm() {
+function LoginForm({ to }) {
   return (
     <>
       <InputText name="email" placeholder="ID..." />
       <InputText name="password" placeholder="PW..." type="password" />
-      <Button>로그인</Button>
+      <Button>
+        <Link to={to}>로그인</Link>
+      </Button>
       <Aligner>
-        <StyledLink>아이디가 없으신가요?</StyledLink>
+        {/* <StyledLink to={to}>아이디가 없으신가요?</StyledLink> */}
       </Aligner>
     </>
   );

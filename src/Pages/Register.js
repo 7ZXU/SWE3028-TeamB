@@ -3,6 +3,7 @@ import RegisterForm from '../Components/RegisterForm';
 import box from '../img/box.png';
 import logo from '../img/logo.png';
 import './Register.css';
+import { Link } from 'react-router-dom';
 
 function Register() {
   return (
@@ -14,6 +15,9 @@ function Register() {
       <div className="register-form">
         <h1>Create Account</h1>
         <RegisterForm />
+        <Link to="./Login" className="link__login">
+          로그인 하기
+        </Link>
       </div>
     </div>
   );

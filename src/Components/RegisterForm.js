@@ -42,9 +42,7 @@ function RegisterForm() {
       <InputText name="password" placeholder="PW" type="password" />
       <InputText name="password" placeholder="Check PW" type="password" />
       <Button>회원가입</Button>
-      <Aligner>
-        <StyledLink>로그인 하기</StyledLink>
-      </Aligner>
+      <Aligner>{/* <StyledLink>로그인 하기</StyledLink> */}</Aligner>
     </>
   );
 }

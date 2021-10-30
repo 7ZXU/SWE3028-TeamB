@@ -1,11 +1,15 @@
-import React, { useState } from "react";
-import styled from "styled-components";
-import { Link } from "react-router-dom";
-import AccountCircleIcon from "@mui/icons-material/AccountCircle";
-import Calendar from "../components/Calendar";
-import Friends from "../components/Friends";
-import CheckboxList from "../components/CheckboxList";
-import Slide from "../components/Slide";
+import React, { useState } from 'react';
+import styled from 'styled-components';
+import { Link } from 'react-router-dom';
+import AccountCircleIcon from '@mui/icons-material/AccountCircle';
+// import Calendar from "../components/Calendar";
+// import Friends from "../components/Friends";
+// import CheckboxList from "../components/CheckboxList";
+// import Slide from "../components/Slide";
+import Calendar from '../Components/Calendar';
+import Friends from '../Components/Friends';
+import CheckboxList from '../Components/CheckboxList';
+import Slide from '../Components/Slide';
 
 const FeedWrap = styled.div`
   display: flex;
@@ -44,7 +48,7 @@ const CheckboxListWrap = styled.div`
 const Login = styled(AccountCircleIcon)``;
 
 function FeedPage() {
-  const [user, setUser] = useState("김지수");
+  const [user, setUser] = useState('김지수');
 
   return (
     <FeedWrap>
@@ -58,7 +62,7 @@ function FeedPage() {
           <User>{user}</User>
           <Calendar></Calendar>
           <Link to="/feed/image">
-          <Slide></Slide>
+            <Slide></Slide>
           </Link>
         </CalendarWrap>
         <CheckboxListWrap>
