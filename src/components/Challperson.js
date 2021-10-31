@@ -36,7 +36,9 @@ const Challperson = (onInsertToggle, name) => {
           <div className= 'Na'>곽무진</div>
           <div className='Chart'>
             <Pchart/>
-            <div className='Todo'>{todos.map(todo => <div>{todo.date}<div>{todo.challname} {todo.text}</div></div>)}</div>
+            <div className='Border'>
+            <div className='Todo'>{todos.map(todo => <div className='Todos'>{todo.date}<div>{todo.challname} {todo.text}</div></div>)}</div>
+            </div>
             </div>
         </form>
     </div>
