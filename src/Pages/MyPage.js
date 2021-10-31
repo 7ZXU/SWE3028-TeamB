@@ -1,7 +1,11 @@
 import React, { useState } from 'react';
-import UserBlock from '../Components/UserBlock';
-import Header from '../Components/Header';
-import CustomButton from '../Components/CustomButton';
+import UserBlock from '../components/UserBlock';
+import Header from '../components/Header';
+import CustomButton from '../components/CustomButton';
+import InfoContainer from '../components/InfoContainer';
+import ChargeContainer from '../components/ChargeContainer';
+import PenaltyRewardContainer from '../components/PenaltyRewardContainer';
+import SettingContainer from '../components/SettingContainer';
 import './MyPage.css';
 
 function MyPage() {
@@ -33,7 +37,22 @@ function MyPage() {
           </div>
           {/* <SelectMenu></SelectMenu> */}
         </div>
-        <div className="menu-detail">{selected}</div>
+        <div className="menu-detail">
+          {(function () {
+            switch (selected) {
+              case 'Info':
+                return <InfoContainer />;
+              case 'Charge':
+                return <ChargeContainer />;
+              case 'Penalty & Reward':
+                return <PenaltyRewardContainer />;
+              case 'Setting':
+                return <SettingContainer />;
+              default:
+                throw new Error('error');
+            }
+          })()}
+        </div>
       </div>
     </>
   );

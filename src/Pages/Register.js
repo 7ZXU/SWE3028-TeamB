@@ -1,5 +1,5 @@
 import React from 'react';
-import RegisterForm from '../Components/RegisterForm';
+import RegisterForm from '../components/RegisterForm';
 import box from '../img/box.png';
 import logo from '../img/logo.png';
 import './Register.css';

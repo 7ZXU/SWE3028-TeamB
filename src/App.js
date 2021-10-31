@@ -1,9 +1,9 @@
 import './App.css';
-import Main from './Pages/Main';
-import Login from './Pages/Login';
-import MyPage from './Pages/MyPage';
-import FeedPage from './Pages/FeedPage';
-import Register from './Pages/Register';
+import Main from './pages/Main';
+import Login from './pages/Login';
+import MyPage from './pages/MyPage';
+import FeedPage from './pages/FeedPage';
+import Register from './pages/Register';
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 import 'slick-carousel/slick/slick.css';

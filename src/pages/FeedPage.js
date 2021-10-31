@@ -2,14 +2,14 @@ import React, { useState } from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
-// import Calendar from "../components/Calendar";
-// import Friends from "../components/Friends";
-// import CheckboxList from "../components/CheckboxList";
-// import Slide from "../components/Slide";
-import Calendar from '../Components/Calendar';
-import Friends from '../Components/Friends';
-import CheckboxList from '../Components/CheckboxList';
-import Slide from '../Components/Slide';
+import Calendar from '../components/Calendar';
+import Friends from '../components/Friends';
+import CheckboxList from '../components/CheckboxList';
+import Slide from '../components/Slide';
+// import Calendar from '../Components/Calendar';
+// import Friends from '../Components/Friends';
+// import CheckboxList from '../Components/CheckboxList';
+// import Slide from '../Components/Slide';
 
 const FeedWrap = styled.div`
   display: flex;
