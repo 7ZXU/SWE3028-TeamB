@@ -39,7 +39,7 @@ const Template = ({children, Myname, days, Yourname, days2}) => {
 
     return (
         <div className='Template'>
-            <div className='ChallengeName'><img className='Challimg'  src={ require('.\\img\\1.jpg') } />{Cinfo.name}<div>{Cinfo.date}</div></div>
+            <div className='ChallengeName'><img className='Challimg'  src={ require('.\\assets\\1.jpg') } />{Cinfo.name}<div>{Cinfo.date}</div></div>
             <div className= "Template1">
                 <div className='Myname'><div className='Name' onClick={onInsertToggle}> Me: {Myname}
                     {insertToggle && <Challperson onInsertToggle={onInsertToggle}/>}

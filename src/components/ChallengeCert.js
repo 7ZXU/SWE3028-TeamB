@@ -13,19 +13,19 @@ const Cert = ({Cday,cert}) => {
     const itemData = [
       {
         id: 1,
-        img: require('.\\certset\\1.jpg'),
+        img: require('.\\assets\\1.jpg'),
       },
       {
         id: 2,
-        img: require('.\\certset\\2.jpg'),
+        img: require('.\\assets\\2.jpg'),
       },
       {
         id: 3,
-        img: require('.\\certset\\3.jpg'),
+        img: require('.\\assets\\3.jpg'),
       },
       {
         id: 4,
-        img: require('.\\certset\\4.jpg'),
+        img: require('.\\assets\\4.jpg'),
       }
     ]
     const onInsertToggle = () => {
@@ -34,7 +34,7 @@ const Cert = ({Cday,cert}) => {
     const onInsertToggle2 = () => {
         setInsertToggle2(prev => !prev);
       };
-      const [cimg,imgchange] = useState( require('.\\certset\\2.jpg'))
+      const [cimg,imgchange] = useState( require('.\\assets\\2.jpg'))
       const onInsertImage = (inp) => {
         imgchange(inp.target.src);
       };
@@ -61,4 +61,3 @@ const Cert = ({Cday,cert}) => {
 
 
 export default Cert;
-//C:\\Users\\sksms\\Desktop\\jebal\\src\\Components\\
