@@ -25,7 +25,7 @@ export default function CheckboxList() {
   };
 
   return (
-    <List sx={{ width: '100%', maxWidth: 360, borderStyle:'solid', borderRadius:5, boxShadow:'5px'  }}>
+    <List sx={{ width: '100%', maxWidth: 360, borderStyle:'solid', borderRadius:5, boxShadow:'5px' , height: 1 }}>
       {[0, 1, 2, 3].map((value) => {
         const labelId = `checkbox-list-label-${value}`;
 
