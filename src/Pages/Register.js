@@ -14,7 +14,7 @@ function Register() {
       </div>
       <div className="register-form">
         <h1>Create Account</h1>
-        <RegisterForm />
+        <RegisterForm to="./" />
         <Link to="./Login" className="link__login">
           로그인 하기
         </Link>

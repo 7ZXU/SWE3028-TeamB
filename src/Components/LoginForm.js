@@ -42,9 +42,9 @@ function LoginForm({ to }) {
     <>
       <InputText name="email" placeholder="ID..." />
       <InputText name="password" placeholder="PW..." type="password" />
-      <Button>
-        <Link to={to}>로그인</Link>
-      </Button>
+      <Link to={to}>
+        <Button>로그인</Button>
+      </Link>
       <Aligner>
         {/* <StyledLink to={to}>아이디가 없으신가요?</StyledLink> */}
       </Aligner>

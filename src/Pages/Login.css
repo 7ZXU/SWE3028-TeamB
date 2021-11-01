@@ -35,3 +35,12 @@
   transform: translate(-50%, 0%);
   text-align: center;
 }
+
+.link__register {
+  text-decoration: none;
+  color: #000000;
+}
+
+.link__register:visited {
+  color: #000000;
+}

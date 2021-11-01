@@ -18,10 +18,16 @@
 
 .button__container {
   position: absolute;
+  text-align: center;
   top: 600px;
   left: 50%;
   transform: translate(-50%, 0%);
 }
+
+.button__container a {
+  text-decoration: none;
+}
+
 /* 이용하러가기 버튼*/
 .join {
   display: block;
@@ -32,6 +38,7 @@
   height: 60px;
   font-size: 1.6em;
   padding: 0 2em;
+  margin: auto;
   cursor: pointer;
   transition: 800ms ease all;
   outline: none;

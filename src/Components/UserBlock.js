@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 import './UserBlock.css';
 import test from '../img/example.jpg';
+import ModeEditIcon from '@mui/icons-material/ModeEdit';
 
 function UserBlock() {
-  const [username, setUsername] = useState('사용자 이름');
+  const [username, setUsername] = useState('닉네임');
 
   return (
     <div className="user-container-box">
@@ -12,6 +13,7 @@ function UserBlock() {
       </div>
       <div className="user-name">
         <p>{username}</p>
+        <ModeEditIcon />
       </div>
     </div>
   );

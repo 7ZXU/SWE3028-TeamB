@@ -29,7 +29,6 @@ Header {
 }
 
 .menu-detail {
-  background: cornsilk;
   flex: 3;
   width: 100%;
   height: 750px;
@@ -39,4 +38,7 @@ Header {
   font-size: 30px;
   font-weight: bold;
   text-align: center;
+
+  padding: 20px;
+  box-sizing: border-box;
 }

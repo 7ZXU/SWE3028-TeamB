@@ -23,6 +23,12 @@
 
 .user-name {
   display: flex;
+  margin-top: 20px;
   justify-content: center;
   padding: 10px 0;
+}
+
+.user-name p {
+  margin: 0;
+  padding-right: 10px;
 }

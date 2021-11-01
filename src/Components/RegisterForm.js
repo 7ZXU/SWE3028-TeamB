@@ -1,6 +1,7 @@
 import React from 'react';
 import InputText from './InputText';
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 const Button = styled.button`
   cursor: pointer;
@@ -35,13 +36,15 @@ const StyledLink = styled.p`
   }
 `;
 
-function RegisterForm() {
+function RegisterForm({ to }) {
   return (
     <>
       <InputText name="email" placeholder="ID" />
       <InputText name="password" placeholder="PW" type="password" />
       <InputText name="password" placeholder="Check PW" type="password" />
-      <Button>회원가입</Button>
+      <Link to={to}>
+        <Button>회원가입</Button>
+      </Link>
       <Aligner>{/* <StyledLink>로그인 하기</StyledLink> */}</Aligner>
     </>
   );
