@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Template.css";
 import Challperson from "./Challperson";
-import Days from "./Days";
+
 import Cert from "./ChallengeCert";
 import { useState } from "react";
 import Todolist from "./TodoList";
@@ -32,7 +32,7 @@ const Template = ({children, Myname, days, Yourname, days2}) => {
       ]);
       const [Cinfo, setCinfo] = useState({name: 'challenge', date: '2021-11-1 ~ 2021-11-30'});
 
-      const [todocert, settodocert] = useState({id:'',isempty: true});
+      const [todocert, settodocert] = useState({id:'',isempty: ''});
 
 
 
