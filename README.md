@@ -1,4 +1,4 @@
-# Team B Capstone Project S-gether
+# S-gether Web Page
 
 
 ## 프로젝트 배경
